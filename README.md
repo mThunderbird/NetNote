@@ -2,8 +2,14 @@
 
 # Important disclaimer !!!
 This project was a university project which was done in a monitored GitLab repository, which included task planning (Agile style), testing and code style pipeline.
+
+
 However, I cannot import all of this into GitHub, so I have uploaded only the code as a showcase.
+
+
 I have left all the code we created in the span of 2 months, as it was when we submitted the project, which earned an almost perfect grade of 9.5
+
+
 It was done in collaboration with 3 other colleagues - Sandijs Rakstiņš, Paula Darii, and Miruna Toşa
 
 ## Installing and launching NetNote
