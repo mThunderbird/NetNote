@@ -12,6 +12,8 @@ I have left all the code we created in the span of 2 months, as it was when we s
 
 It was done in collaboration with 3 other colleagues - Sandijs Rakstiņš, Paula Darii, and Miruna Toşa
 
+To see the **websocket implementation**, go to client/src/main/java/client/utils and server/src/main/java/server/services/MessageBroadcaster.java
+
 ## Installing and launching NetNote
 To run NetNote from the command line,
 you either need to have [Maven](https://maven.apache.org/install.html) installed on your local system (`mvn`)
