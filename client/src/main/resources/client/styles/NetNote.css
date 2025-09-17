@@ -1,0 +1,196 @@
+.root {
+    /*main background color*/
+    -bg-primary: #FFFAEC;
+    /*secondary background color*/
+    -bg-secondary: #F3E9CD;
+    /*blue accent color*/
+    -accent-blue: #00FFCC;
+    /*red accent color*/
+    -accent-red: #FF534D;
+    /*primary text color*/
+    -text-primary: #3D3D3D;
+    /*secondary text color used in highlighted elements*/
+    -text-secondary: #3D3D3D;
+    /*border color*/
+    -border: #5C5239;
+
+    -focus: #ffd400;
+
+
+    /*DON'T GO FURTHER IF YOU DON'T KNOW WHAT YOU ARE DOING*/
+
+
+    -fx-text-fill: -text-primary;
+    -fx-font-size: 14px;
+}
+
+*:focused {
+    -fx-border-style: dashed;
+}
+
+.note-title {
+    -fx-border-color: -border;
+    -fx-background-color: -bg-primary;
+    -fx-text-fill: -text-primary;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
+
+.note-title-invalid {
+    -fx-border-color: -accent-red;
+    -fx-background-color: -bg-primary;
+    -fx-text-fill: -text-primary;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
+
+.tooltip {
+    -fx-background-color: -bg-primary;
+    -fx-text-fill: -text-primary;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-background-radius: 5;
+    -fx-border-color: -accent-red;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5;
+    -fx-background-inset: 1;
+}
+
+.error-snack-notification {
+    -fx-background-color: -bg-primary;
+    -fx-text-fill: -text-primary;
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+    -fx-background-radius: 5;
+    -fx-border-color: -accent-red;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5;
+    -fx-background-inset: 1;
+    -fx-alignment: center;
+}
+
+.resolved-snack-notification {
+    -fx-background-color: -bg-primary;
+    -fx-text-fill: -text-primary;
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+    -fx-background-radius: 5;
+    -fx-border-color: -accent-blue;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5;
+    -fx-background-inset: 1;
+    -fx-alignment: center;
+}
+
+.choice-box .label {
+    -fx-text-fill: inherit;
+}
+
+.choice-box .menu-item:focused {
+    -fx-background-color: -accent-blue;
+    -fx-text-fill: -text-secondary;
+}
+
+.choice-box .context-menu {
+    -fx-background-color: -bg-primary;
+    -fx-text-fill: -text-primary;
+}
+
+.choice-box .left-container .radio {
+    -fx-background-color: -text-secondary;
+}
+
+.split-pane-divider {
+    -fx-background-color: -border;
+}
+
+.combo-box .arrow-button{
+    -fx-background-color: -bg-primary;
+}
+
+.combo-box .arrow{
+    -fx-background-color: -text-primary;
+}
+
+.list-view {
+    -fx-selection-bar: -accent-blue ;
+    -fx-selection-bar-non-focused: -accent-blue;
+}
+
+.list-cell {
+    -fx-background-color: -bg-primary;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: -text-primary;
+    -fx-border-color: -border;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-background-insets: 1px;
+    -fx-font-weight: normal;
+}
+
+.list-cell:selected {
+    -fx-background-color: -accent-blue;
+    -fx-text-fill: -text-secondary;
+}
+
+.list-cell:empty {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+/* General scrollbar styling */
+.scroll-bar {
+    -fx-background-color: transparent;
+}
+
+/* Vertical scrollbar (specific styles for vertical) */
+.scroll-bar:vertical {
+    -fx-pref-width: 12px;
+}
+
+/* Horizontal scrollbar (specific styles for horizontal) */
+.scroll-bar:horizontal {
+    -fx-pref-height: 12px;
+}
+
+/* Styling the thumb (draggable part) */
+.scroll-bar .thumb {
+    -fx-background-color: -bg-primary;
+    -fx-background-radius: 6px;
+    -fx-padding: 3px;
+}
+
+/* Styling the track (background of the scrollbar) */
+.scroll-bar .track {
+    -fx-background-color: -border;
+    -fx-background-radius: 6px;
+}
+
+/* Increment and Decrement buttons (arrows) */
+.scroll-bar .increment-button, .scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+}
+
+/* The arrows themselves */
+.scroll-bar > .increment-button > .increment-arrow,
+.scroll-bar > .decrement-button > .decrement-arrow {
+    -fx-background-color: -text-primary;
+}
+
+.empty-status-circle{
+    -fx-stroke: -border;
+    -fx-fill: transparent;
+}
+
+.red-status-circle{
+    -fx-stroke: -border;
+    -fx-fill: -accent-red;
+}
+
+.blue-status-circle{
+    -fx-stroke: -border;
+    -fx-fill: -accent-blue;
+}
